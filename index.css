@@ -45,16 +45,19 @@ nav{
     margin: auto;
     width:100%;
 }
+#top{
+    margin-top: 3%;
+}
 a{
     color: white;
     border-radius: 10px;
     display:inline-block;
-    width:15%;
+    width:16%;
     padding: 0.5% 2%;
     margin: 0 5%;
     text-align: center;
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     vertical-align: center;
     
 
@@ -72,8 +75,9 @@ background-color: #FFCD69;
 }
 #header_img{
     display: inline-block;
-    width: 25%;
+    width: 23%;
     border-radius: 50%;
+    margin: 0 5%;
 }
 div#header_text{
     display: inline-block;
@@ -95,7 +99,7 @@ p.second{
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     padding:0 0 7% 0;
 }
@@ -104,11 +108,13 @@ h1 {
 }
 #about{
     background-color: #DDB9A3;
-    color:white;
+    color:rgba(255, 255, 255, 0.816);
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    letter-spacing: 0rem;
     padding: 1% 3%;
+    font-size: .5rem;
 }
 #icons{
     font-size: calc(.4rem);
@@ -116,7 +122,7 @@ h1 {
 
 }
 #icons img{
-    width: 14%;
+    width: 13%;
     padding:1%
 
 }
@@ -130,7 +136,14 @@ span{
 #truck{
     margin: 3% 0 .25% 0;
 }
-footer img{
+#mountain-container img{
     width:100%;
-    margin:9% auto 0;
+}
+#spacer{
+    padding:4%;
+}
+#bottom{
+    background-color: #F9E7DC;
+    padding: 3%;
+    margin: 0;
 }
